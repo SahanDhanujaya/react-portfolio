@@ -10,7 +10,7 @@ function ProjectPage() {
           Jects
         </span>
       </h1>
-      <div className="grid grid-cols-4 gap-2 h-full" style={{ marginInline: "10%", marginBlock: "4%", padding: "1rem" }}>
+      <div className="grid grid-cols-4 gap-2 h-100" style={{ marginInline: "10%", marginBlock: "4%", padding: "1rem" }}>
         {Array.from({ length: 8 }).map((_, index) => (
           <div
             key={index}

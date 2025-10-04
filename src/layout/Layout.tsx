@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import ProjectPage from "../pages/ProjectPage";
+import ContactPage from "../pages/ContactPage";
 
 const Layout = () => {
   return (
@@ -11,6 +12,7 @@ const Layout = () => {
       <HomePage />
       <AboutPage />
       <ProjectPage />
+      <ContactPage />
       <Footer />
     </div>
   );
