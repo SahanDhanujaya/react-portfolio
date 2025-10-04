@@ -1,3 +1,5 @@
+import ContactLinks from "../components/ContactLinks"
+
 function HomePage() {
   return (
     <div>
@@ -9,6 +11,9 @@ function HomePage() {
              <div className="m-4">
                 <h1 className="text-3xl text-black font-bold">Sahan Dhanujaya</h1>
                 <h3 className="text-lg text-black">Profecional Software Developer</h3>
+             </div>
+             <div>
+                <ContactLinks />
              </div>
         </div>
     </div>

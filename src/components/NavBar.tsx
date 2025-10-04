@@ -2,36 +2,30 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <nav className="block w-full max-w-screen-lg px-4 py-2 mx-auto bg-white bg-opacity-90 sticky top-3 shadow lg:px-8 lg:py-3 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
-  <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
+    <nav className="w-full max-w-screen py-4 bg-white bg-opacity-90 sticky top-0 lg:px-8 lg:py-3 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
+  <div className="container flex items-center justify-center mx-auto text-slate-800">
     <a href="#"
       className="mr-4 block cursor-pointer py-1.5 text-base text-slate-800 font-semibold">
-      Material Tailwind
+      <img src="/sd_logo.png" alt="my logo" className='w-10' />
     </a>
-    <div className="hidden lg:block">
+    <div className="w-full flex justify-center">
       <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
         <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-          <a href="#" className="flex items-center">Pages</a>
+          <a href="#" className="flex items-center">Home</a>
         </li>
         <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-          <a href="#" className="flex items-center">Account</a>
+          <a href="#" className="flex items-center">About</a>
         </li>
         <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-          <a href="#" className="flex items-center">Blocks</a>
+          <a href="#" className="flex items-center">Projects</a>
         </li>
         <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-          <a href="#" className="flex items-center">Docs</a>
+          <a href="#" className="flex items-center">Contact</a>
         </li>
       </ul>
     </div>
-    <button
-      className="relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] select-none rounded-lg text-center align-middle text-xs font-medium uppercase text-inherit transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
-      type="button">
-      <span className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </span>
+    <button className='w-10 flex justify-center hover:cursor-pointer hover:bg-indigo-50 hover:shadow-black rounded-full'>
+        <img src="/src/assets/logos/icons8-dark-mode-50.png" alt="dark mode" className='w-5 ' />
     </button>
   </div>
 </nav>
