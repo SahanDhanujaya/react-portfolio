@@ -1,7 +1,7 @@
 function AboutPage() {
   return (
     <div className="h-screen">
-      <h1 className="text-3xl text-black font-bold text-center sticky top-9">
+      <h1 className="text-3xl bg-white text-black font-bold text-center sticky top-9">
         About{" "}
         <span
           className="text-white bg-gray-600"
@@ -12,7 +12,7 @@ function AboutPage() {
       </h1>
       <div
         className="flex border-1 border-black h-fit rounded"
-        style={{ marginInline: "10%", marginTop: "5%", padding: "1rem" }}
+        style={{ marginInline: "10%", marginBlock: "4%", padding: "1rem" }}
       >
         <div>
           <p>
@@ -25,7 +25,6 @@ function AboutPage() {
             <div key={index} className="flex w-full h-8 bg-gray-400 rounded" style={{marginTop: "5px"}}></div>
           ))}
         </div>
-        <div></div>
       </div>
     </div>
   );
