@@ -1,5 +1,3 @@
-import React from 'react'
-
 function NavBar() {
   return (
     <nav className="w-full max-w-screen py-4 bg-white bg-opacity-90 sticky top-0 lg:px-8 lg:py-3 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
